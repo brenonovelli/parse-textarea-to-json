@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--  Meta  -->
+    <meta charset="UTF-8" />
+    <title>Parse textarea to json</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <textarea
+      id="txt"
+      class="op-js-textarea"
+      name="op-js-textarea"
+      cols="50"
+      rows="10"
+    >
+	Test
+		Test 1
+			Test 1.1
+			Test 1.2
+			Test 1.3
+				Test 1.3.1
+		Teste 2
+	Other Test
+	</textarea
+    >
+    <br />
+    <button class="op-js-process-textarea">Process</button>
+
+    <!-- Scripts -->
+    <script src="scripts/tabOverride.js"></script>
+    <script src="scripts/parse.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
